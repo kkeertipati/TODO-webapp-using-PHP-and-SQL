@@ -1,0 +1,122 @@
+/* 
+    Created on : Jul 4, 2017, 12:43:10 AM
+    Author     : Atta-Ur-Rehman Shah (http://attacomsian.com)
+*/
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+
+html,
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: #FAFAFA;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+}
+.navbar-brand {
+    font-weight: 700;
+}
+
+}
+.hero{
+    height: 75vh;
+    min-height: 350px;
+    padding: 30px 0;
+}
+.hero .brand{
+    margin-top: 100px;
+}
+@media (max-width: 768px){
+    .hero .brand {
+        margin-top: 0px; 
+    }
+}
+.store-img
+{
+    width: 170px;
+}
+.hero h1{
+    font-weight: 100;
+} 
+.hero h1 b{
+    font-weight: 700;
+} 
+a {
+    color: #1abc9c;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+a:hover,
+a:focus {
+    color: #1abc9c !important;
+    outline: 0;
+    text-decoration: none !important;
+}
+section{
+    padding: 30px 0px;
+
+}
+
+/*===============================================
+* Background Colors
+================================================*/
+.bg-texture{
+
+  background-color: #1abc9c;
+}
+
+
+/*===============================================
+* Colored Buttons
+================================================*/
+.btn{
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: .6rem 1.5rem;
+}
+.btn:hover, .btn:focus {
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.15);
+}
+.btn-white {
+    color: #1abc9c !important;
+    background-color: #fff;
+    border-color: #fff;
+}
+.btn-white:hover{
+    color: #1abc9c;
+}
+.btn-primary{
+    background-color: #1abc3f !important;
+    border-color: #1abc9c !important;
+}
+.btn-primary:hover, .btn-primary:focus{
+    color: #fff !important;
+}
+.btn-radius{
+    border-radius: 50px;
+}
+
+label {
+	display: block;
+	margin: 5px 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
